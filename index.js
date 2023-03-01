@@ -51,14 +51,14 @@ hitMe.on("click", function () {
   if ($(window).innerWidth() <= 1000) {
     var l = 1;
     var wish =
-      "I wish your all aims comes true... God bless you, Happy Day Dear Again.";
+      "I wish your all aims comes true... God bless you, Happy Day Dear Again...      MAY BE.✨✨🎊🎂";
     setTimeout(function () {
       var wishes = setInterval(function () {
         if (l === wish.length) {
           clearInterval(wishes);
         }
         var c = "c";
-        if (l == "22" || l == "36" || l == "51" || l == "66") {
+        if (l == "22" || l == "36" || l == "51" || l == "66" || l == "76") {
           $(".wishes").append(
             "<br/><h2 class='wishes-heading'>" + wish.charAt(l - 1) + "</h2>"
           );
